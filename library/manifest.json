@@ -1,0 +1,39 @@
+{
+  "resourceId": "paletteeditor",
+  "content": [{
+    "id": "paletteeditor",
+    "name": "Palette Editor",
+    "description": "View and apply palettes to characters and assists",
+    "type": "stage",
+    "objectStatsId": "paletteeditorStageStats",
+    "scriptId": "paletteeditorScript",
+    "music": [{ "namespace": "public", "resourceId": "bgm_welkinwonderland", "contentId": "bgm_welkinwonderland" },{"namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },{"namespace": "public", "resourceId": "bgm_superfunk", "contentId": "bgm_superfunk" }],
+    "metadata": {
+      "stage":{
+        "hazardVariation": "local::paletteeditor.paletteeditor"
+      },
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"full",
+          "animation_hazard":"full_hazard"
+        },
+        "css":{
+          "animation":"css",
+          "animation_hazard":"css_hazard"
+        }
+      }
+    }
+  },{
+    "id": "custom_palettes",
+    "type": "customGameObject",
+    "scriptId": "customPaletteScript"
+  },{
+    "id": "dummy",
+    "type": "customGameObject",
+    "scriptId": "dummyScript",
+    "objectStatsId": "dummyStats",
+    "animationStatsId": "dummyAnimationStats",
+    "hitboxStatsId": "dummyHitboxStats"
+  }]
+}

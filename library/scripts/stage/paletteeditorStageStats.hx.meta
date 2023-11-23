@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "ab66b787-ce19-4a78-a1e7-dac1257fc347",
+  "id": "paletteeditorStageStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

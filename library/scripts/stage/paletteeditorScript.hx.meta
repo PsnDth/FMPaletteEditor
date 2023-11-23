@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "a7addd33-21db-463f-bee3-886564b4f1b3",
+  "id": "paletteeditorScript",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "STAGE",
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
