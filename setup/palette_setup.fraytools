@@ -15,22 +15,18 @@
   },
   "plugins": [
     "com.fraymakers.ContentExporter",
-    "com.fraymakers.FraymakersTypes",
-    "com.fraymakers.FraymakersMetadata"
+    "com.fraymakers.FraymakersMetadata",
+    "com.fraymakers.FraymakersTypes"
   ],
   "publishFolders": [
     {
       "id": "build0",
-      "path": "build"
-    },
-    {
-      "id": "build1",
-      "path": "../../../../../Program Files (x86)/Steam/steamapps/common/Fraymakers/custom/peditor"
+      "path": "."
     }
   ],
   "snapToPixel": true,
-  "templateDescription": "Sample stage project for Fraymakers.",
-  "templateName": "Fraymakers Stage Template",
-  "templateVersion": "0.1.0",
+  "templateDescription": "",
+  "templateName": "",
+  "templateVersion": "0.0.0",
   "version": 12
 }

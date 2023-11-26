@@ -1,0 +1,384 @@
+{
+  "colors": [
+    {
+      "$id": "0613f08c-4e5d-437e-b530-25752a3e9fc0",
+      "color": "0xFF070707",
+      "name": "Outline",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e290fd2b-e7b8-48e4-a68a-581a495ef034",
+      "color": "0xFF0B0B0B",
+      "name": "One Leg Pixel",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "c502f81f-598f-4c39-91de-150d96da97e7",
+      "color": "0xFF323232",
+      "name": "Body",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "55913580-a25b-4922-b327-7bcede222428",
+      "color": "0xFF4A4A4A",
+      "name": "Body Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "50c62519-d617-4b15-a945-5625cec2dda5",
+      "color": "0xFF242424",
+      "name": "Body Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "1ff58f50-aa63-4aad-903e-4f44fe3b0854",
+      "color": "0xFF121212",
+      "name": "Body Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "93d2057e-02fb-4cb2-ba65-99c668a922f5",
+      "color": "0xFF41413B",
+      "name": "One Head Pixel",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ee4036b8-6767-4a41-9827-9a12102323e4",
+      "color": "0xFFFFC4C4",
+      "name": "Visor",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "552c6c1e-66ee-40eb-8c52-8653aaf2daef",
+      "color": "0xFFC89A9A",
+      "name": "Visor Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "550ebbc3-34b1-48bc-8cc2-9efb2af6c7a3",
+      "color": "0xFF29BFDE",
+      "name": "Hand",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "0870ca4d-f8bf-421b-b03d-e8c3541329d8",
+      "color": "0xFF1B7A8E",
+      "name": "Hand Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e8688909-a3e2-4019-9d76-8086ed0bfd15",
+      "color": "0xFF115361",
+      "name": "Hand Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "c6c486d0-1587-46ae-b841-3e424f9a010e",
+      "color": "0xFF552494",
+      "name": "Forearm Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7d673041-ce08-4ed9-a1f0-9580c2d63a10",
+      "color": "0xFF8331E9",
+      "name": "Forearm ",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "b73a6278-4264-4156-a06e-aea6f6d59bc6",
+      "color": "0xFF90E2ED",
+      "name": "Elbow hade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ee93be36-f9cb-4b80-8b6c-872a206d0dac",
+      "color": "0xFF66A6AE",
+      "name": "Elbow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "bba85ef6-0bc3-4e90-b287-02d8a92b6d47",
+      "color": "0xFFFBDA03",
+      "name": "Trail 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ca8648e7-97d2-4fdf-93ce-460cd5238246",
+      "color": "0xFFFFA632",
+      "name": "Trail 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "a90eb5fc-51b6-4e56-b363-ef5df0eddd7b",
+      "color": "0xFF36A6AA",
+      "name": "Trail 3",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ac0ccc7f-b434-4e1b-aee4-78542a93ac95",
+      "color": "0xFFDC6CA7",
+      "name": "Trail 4",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "cd93e5a6-ae45-41d2-b545-5cb01566234e",
+      "color": "0xFF363579",
+      "name": "Trail 5",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "04434c8e-d4ce-421a-83b0-fbb60bae9fee",
+      "color": "0xFFD0D721",
+      "name": "Sock 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "c7e42f58-5338-4bf4-8ac3-72fb22594989",
+      "color": "0xFFA3A91A",
+      "name": "Sock 1 Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f54ee2ba-138e-4030-89aa-cb1e9ff5639d",
+      "color": "0xFF13C39A",
+      "name": "Sock 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f040aa75-e7a4-4f57-adc5-fd3f53e9bb35",
+      "color": "0xFF0C866A",
+      "name": "Sock 2 Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ed918247-8607-4e49-8ab2-5c492bb1ac34",
+      "color": "0xFFA82AE5",
+      "name": "Sock 3",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "416e7721-f21d-4c63-833d-abebb85bd38f",
+      "color": "0xFF771BA4",
+      "name": "Sock 3 Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "b8263007-833a-41c7-92fb-802a93396d59",
+      "color": "0xFFF0F0F0",
+      "name": "Shoe White",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "4ddfefd3-948f-4258-bba6-192f1a4d78f5",
+      "color": "0xFF9E9E9E",
+      "name": "Shoe White Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7eb25223-6108-47ed-9a77-4be6f6be1ec3",
+      "color": "0xFF757575",
+      "name": "Shoe White Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "d2534ca5-28f1-448f-aa63-c4a9f805cd3f",
+      "color": "0xFFCE2020",
+      "name": "Shoe Red",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "74c55b13-2adc-4227-9816-070ac1b3e1d6",
+      "color": "0xFF88330E",
+      "name": "Shoe Red Shade",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "23696713-3099-4bd6-aa74-2f71d582d468",
+  "id": "public::commandervideo.commandervideo",
+  "imageAsset": "b2a2380f-0b8f-4de1-8b58-06e2945cb8cb",
+  "maps": [
+    {
+      "$id": "44190a5a-f36a-4e28-96e5-c94b6ad621f0",
+      "colors": [
+        {
+          "paletteColorId": "0613f08c-4e5d-437e-b530-25752a3e9fc0",
+          "targetColor": "0xFF070707"
+        },
+        {
+          "paletteColorId": "c502f81f-598f-4c39-91de-150d96da97e7",
+          "targetColor": "0xFF323232"
+        },
+        {
+          "paletteColorId": "55913580-a25b-4922-b327-7bcede222428",
+          "targetColor": "0xFF4A4A4A"
+        },
+        {
+          "paletteColorId": "50c62519-d617-4b15-a945-5625cec2dda5",
+          "targetColor": "0xFF242424"
+        },
+        {
+          "paletteColorId": "1ff58f50-aa63-4aad-903e-4f44fe3b0854",
+          "targetColor": "0xFF121212"
+        },
+        {
+          "paletteColorId": "93d2057e-02fb-4cb2-ba65-99c668a922f5",
+          "targetColor": "0xFF41413B"
+        },
+        {
+          "paletteColorId": "bba85ef6-0bc3-4e90-b287-02d8a92b6d47",
+          "targetColor": "0xFFFBDA03"
+        },
+        {
+          "paletteColorId": "552c6c1e-66ee-40eb-8c52-8653aaf2daef",
+          "targetColor": "0xFFC89A9A"
+        },
+        {
+          "paletteColorId": "ee4036b8-6767-4a41-9827-9a12102323e4",
+          "targetColor": "0xFFFFC4C4"
+        },
+        {
+          "paletteColorId": "ca8648e7-97d2-4fdf-93ce-460cd5238246",
+          "targetColor": "0xFFFFA632"
+        },
+        {
+          "paletteColorId": "0870ca4d-f8bf-421b-b03d-e8c3541329d8",
+          "targetColor": "0xFF1B7A8E"
+        },
+        {
+          "paletteColorId": "550ebbc3-34b1-48bc-8cc2-9efb2af6c7a3",
+          "targetColor": "0xFF29BFDE"
+        },
+        {
+          "paletteColorId": "e8688909-a3e2-4019-9d76-8086ed0bfd15",
+          "targetColor": "0xFF115361"
+        },
+        {
+          "paletteColorId": "c6c486d0-1587-46ae-b841-3e424f9a010e",
+          "targetColor": "0xFF552494"
+        },
+        {
+          "paletteColorId": "7d673041-ce08-4ed9-a1f0-9580c2d63a10",
+          "targetColor": "0xFF8331E9"
+        },
+        {
+          "paletteColorId": "b73a6278-4264-4156-a06e-aea6f6d59bc6",
+          "targetColor": "0xFF90E2ED"
+        },
+        {
+          "paletteColorId": "ee93be36-f9cb-4b80-8b6c-872a206d0dac",
+          "targetColor": "0xFF66A6AE"
+        },
+        {
+          "paletteColorId": "a90eb5fc-51b6-4e56-b363-ef5df0eddd7b",
+          "targetColor": "0xFF36A6AA"
+        },
+        {
+          "paletteColorId": "ac0ccc7f-b434-4e1b-aee4-78542a93ac95",
+          "targetColor": "0xFFDC6CA7"
+        },
+        {
+          "paletteColorId": "cd93e5a6-ae45-41d2-b545-5cb01566234e",
+          "targetColor": "0xFF363579"
+        },
+        {
+          "paletteColorId": "e290fd2b-e7b8-48e4-a68a-581a495ef034",
+          "targetColor": "0xFF0B0B0B"
+        },
+        {
+          "paletteColorId": "04434c8e-d4ce-421a-83b0-fbb60bae9fee",
+          "targetColor": "0xFFC2CD00"
+        },
+        {
+          "paletteColorId": "c7e42f58-5338-4bf4-8ac3-72fb22594989",
+          "targetColor": "0xFFA3A91A"
+        },
+        {
+          "paletteColorId": "f54ee2ba-138e-4030-89aa-cb1e9ff5639d",
+          "targetColor": "0xFF13C39A"
+        },
+        {
+          "paletteColorId": "f040aa75-e7a4-4f57-adc5-fd3f53e9bb35",
+          "targetColor": "0xFF0C866A"
+        },
+        {
+          "paletteColorId": "ed918247-8607-4e49-8ab2-5c492bb1ac34",
+          "targetColor": "0xFFA82AE5"
+        },
+        {
+          "paletteColorId": "416e7721-f21d-4c63-833d-abebb85bd38f",
+          "targetColor": "0xFF771BA4"
+        },
+        {
+          "paletteColorId": "b8263007-833a-41c7-92fb-802a93396d59",
+          "targetColor": "0xFFF0F0F0"
+        },
+        {
+          "paletteColorId": "4ddfefd3-948f-4258-bba6-192f1a4d78f5",
+          "targetColor": "0xFF9E9E9E"
+        },
+        {
+          "paletteColorId": "7eb25223-6108-47ed-9a77-4be6f6be1ec3",
+          "targetColor": "0xFF757575"
+        },
+        {
+          "paletteColorId": "d2534ca5-28f1-448f-aa63-c4a9f805cd3f",
+          "targetColor": "0xFFCE2020"
+        },
+        {
+          "paletteColorId": "74c55b13-2adc-4227-9816-070ac1b3e1d6",
+          "targetColor": "0xFF88330E"
+        }
+      ],
+      "name": "Base",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true
+        }
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

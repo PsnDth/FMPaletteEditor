@@ -1,0 +1,461 @@
+{
+  "colors": [
+    {
+      "$id": "467ccdab-f6e1-4bcf-aa75-20fb4eba49d1",
+      "color": "0xFF070707",
+      "name": "Outline",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "4ef68fe2-b666-424e-aed0-feff836ef5ed",
+      "color": "0xFFF1F0F0",
+      "name": "Body",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ce82d177-46b6-44cf-a848-94f37da5b69a",
+      "color": "0xFFFFFFFF",
+      "name": "Body Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "302e9de2-0bb7-408a-bc26-0a0eeaa86dce",
+      "color": "0xFFC7C3C1",
+      "name": "Body Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "623147aa-1ec5-4e9f-94c1-76fcab9e6940",
+      "color": "0xFF9C9595",
+      "name": "Body Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "bfb07d4d-5923-48c7-bf55-fd8f8520c0fc",
+      "color": "0xFF008D92",
+      "name": "Eye",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "fadcf59c-521a-4dbb-910e-8494cbf5c1d6",
+      "color": "0xFFD6ACF7",
+      "name": "Eye AA1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "4ced7f9f-0dd9-45ea-906e-e107703ba701",
+      "color": "0xFFB67AF9",
+      "name": "Eye AA2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "4bc986d9-c36c-446c-9534-5c7fee4cc14d",
+      "color": "0xFF3C3C3C",
+      "name": "One Sshoulder Pixel",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "8c9d9ee8-c6b2-4954-983a-d926b31cd3bc",
+      "color": "0xFFA41BA1",
+      "name": "GBoot Top Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "3f80986c-2ad4-444b-9b49-261904513f72",
+      "color": "0xFFE621E2",
+      "name": "GBoot Top Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "3f4aff67-e36f-4bb9-bd15-bb4521aee817",
+      "color": "0xFFFF78FC",
+      "name": "GBoot Top Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "babe7c90-700f-4acb-a2b7-0150e36c7828",
+      "color": "0xFF6C126A",
+      "name": "GBoot Top Shadow 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "c295da3a-784f-4100-96df-74ab44cddace",
+      "color": "0xFF480D47",
+      "name": "GBoot Top Shadow 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "2bac9545-a170-449a-b715-94d9652029cf",
+      "color": "0xFF1B7A8E",
+      "name": "GBoot Buckle",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "61bd23d1-3e08-40fd-a317-ca55b412ddda",
+      "color": "0xFF29BFDE",
+      "name": "GBoot Buckle Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "01484a5a-bf7e-4ab2-a4a7-30eb0d732e01",
+      "color": "0xFF115361",
+      "name": "GBoot Buckle Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "aac0611c-7a8b-43a2-849d-187b7c516d03",
+      "color": "0xFF75666A",
+      "name": "GBoo Bodyt Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "398ae55f-4003-4208-b25c-369270df812a",
+      "color": "0xFFA8A0A0",
+      "name": "Gboot Body",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "dcfc1b53-5d06-458b-aff9-3d8cb797ae83",
+      "color": "0xFFCBC7C5",
+      "name": "GBoot Body Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "9203d36f-5884-45b9-8160-88a39e1b817a",
+      "color": "0xFF27EE4D",
+      "name": "GBoot Toe Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7d23180d-19c0-41db-a6f6-e04072b51703",
+      "color": "0xFF1AAB36",
+      "name": "GBoot Toe Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "9cb31b1d-5131-4184-bab8-ee432b89fec2",
+      "color": "0xFF118127",
+      "name": "GBoot Toe Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "a815a756-9345-490d-83a0-354df266ea36",
+      "color": "0xFF332B28",
+      "name": "GBoot Stitches",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "6c94e8ae-15d4-40f3-bdae-18b78fec4e89",
+      "color": "0xFF90E2ED",
+      "name": "GBoot Insole",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "3da95865-3ca2-4c8d-aacf-c05d4189695d",
+      "color": "0xFF66A6AE",
+      "name": "GBoot Insole Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "b5a02fdf-0cf1-44fd-abcd-7b819608b8e5",
+      "color": "0xFF0C866A",
+      "name": "GBoot Sole",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7d93424f-c6f6-43da-954e-97c107fe4e4e",
+      "color": "0xFF13C39A",
+      "name": "GBoot Sole Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "a858aa4f-5e4d-4237-b217-a58e94bcea9f",
+      "color": "0xFFFFFB2F",
+      "name": "GBoot Heel",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "99fb89b6-c779-405a-869d-883e1c705f38",
+      "color": "0xFFC3C01E",
+      "name": "GBoot Heel Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "96b4130b-040d-479e-872c-31b115b4dcaf",
+      "color": "0xFF8B8811",
+      "name": "GBoot Heel Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e4121616-c5f6-4f7d-8b03-e41a38efbccd",
+      "color": "0xFF514F09",
+      "name": "GBoot Heel Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "91dda1fa-a989-472d-bf42-81d38ba12648",
+      "color": "0xFF9B0F0F",
+      "name": "GBoot Gun",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "06a55168-611a-40dd-b8cd-c013c19ab3ec",
+      "color": "0xFFE91717",
+      "name": "GBoot Gun Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "aa264633-f0f5-446b-a87e-a4f96db3d4df",
+      "color": "0xFF7D0C0C",
+      "name": "GBoot Gun Shade",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "a3a5afae-cf08-4654-8234-f2613b31ac04",
+      "color": "0xFF36000C",
+      "name": "GBoot Gun Inner",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "978a0f57-328e-44b3-9488-beb350c12c3f",
+      "color": "0xFF771BA4",
+      "name": "GBoot Toe Strap",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "782cf55b-e09e-434d-ad0d-a63e82bcaef4",
+      "color": "0xFFA82AE5",
+      "name": "GBoot Toe Strap Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "8841d7d5-b001-4b97-8e31-47037312bc41",
+      "color": "0xFF4A1067",
+      "name": "GBoot Toe Strap Shadow",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "dbcd0961-75e3-44ba-9419-07e835d59c79",
+  "id": "public::welltaro.welltaro",
+  "imageAsset": "77bd4760-3a0c-4b36-b6b0-a6aa4cd3c5d0",
+  "maps": [
+    {
+      "$id": "ab2e7699-765f-4f5d-8f9a-48cac2f5e768",
+      "colors": [
+        {
+          "paletteColorId": "467ccdab-f6e1-4bcf-aa75-20fb4eba49d1",
+          "targetColor": "0xFF070707"
+        },
+        {
+          "paletteColorId": "4ef68fe2-b666-424e-aed0-feff836ef5ed",
+          "targetColor": "0xFFF1F0F0"
+        },
+        {
+          "paletteColorId": "ce82d177-46b6-44cf-a848-94f37da5b69a",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "302e9de2-0bb7-408a-bc26-0a0eeaa86dce",
+          "targetColor": "0xFFAFAFAF"
+        },
+        {
+          "paletteColorId": "623147aa-1ec5-4e9f-94c1-76fcab9e6940",
+          "targetColor": "0xFF9C9595"
+        },
+        {
+          "paletteColorId": "bfb07d4d-5923-48c7-bf55-fd8f8520c0fc",
+          "targetColor": "0xFF008D92"
+        },
+        {
+          "paletteColorId": "fadcf59c-521a-4dbb-910e-8494cbf5c1d6",
+          "targetColor": "0xFFD6ACF7"
+        },
+        {
+          "paletteColorId": "4ced7f9f-0dd9-45ea-906e-e107703ba701",
+          "targetColor": "0xFFB67AF9"
+        },
+        {
+          "paletteColorId": "4bc986d9-c36c-446c-9534-5c7fee4cc14d",
+          "targetColor": "0xFF3C3C3C"
+        },
+        {
+          "paletteColorId": "8c9d9ee8-c6b2-4954-983a-d926b31cd3bc",
+          "targetColor": "0xFF8B1888"
+        },
+        {
+          "paletteColorId": "3f80986c-2ad4-444b-9b49-261904513f72",
+          "targetColor": "0xFFE621E2"
+        },
+        {
+          "paletteColorId": "3f4aff67-e36f-4bb9-bd15-bb4521aee817",
+          "targetColor": "0xFFFF78FC"
+        },
+        {
+          "paletteColorId": "babe7c90-700f-4acb-a2b7-0150e36c7828",
+          "targetColor": "0xFF6C126A"
+        },
+        {
+          "paletteColorId": "c295da3a-784f-4100-96df-74ab44cddace",
+          "targetColor": "0xFF480D47"
+        },
+        {
+          "paletteColorId": "2bac9545-a170-449a-b715-94d9652029cf",
+          "targetColor": "0xFF1B7A8E"
+        },
+        {
+          "paletteColorId": "61bd23d1-3e08-40fd-a317-ca55b412ddda",
+          "targetColor": "0xFF29BFDE"
+        },
+        {
+          "paletteColorId": "01484a5a-bf7e-4ab2-a4a7-30eb0d732e01",
+          "targetColor": "0xFF115361"
+        },
+        {
+          "paletteColorId": "aac0611c-7a8b-43a2-849d-187b7c516d03",
+          "targetColor": "0xFF75666A"
+        },
+        {
+          "paletteColorId": "398ae55f-4003-4208-b25c-369270df812a",
+          "targetColor": "0xFFA8A0A0"
+        },
+        {
+          "paletteColorId": "dcfc1b53-5d06-458b-aff9-3d8cb797ae83",
+          "targetColor": "0xFFCBC7C5"
+        },
+        {
+          "paletteColorId": "9203d36f-5884-45b9-8160-88a39e1b817a",
+          "targetColor": "0xFF27EE4D"
+        },
+        {
+          "paletteColorId": "7d23180d-19c0-41db-a6f6-e04072b51703",
+          "targetColor": "0xFF077C1C"
+        },
+        {
+          "paletteColorId": "9cb31b1d-5131-4184-bab8-ee432b89fec2",
+          "targetColor": "0xFF118127"
+        },
+        {
+          "paletteColorId": "a815a756-9345-490d-83a0-354df266ea36",
+          "targetColor": "0xFF332B28"
+        },
+        {
+          "paletteColorId": "6c94e8ae-15d4-40f3-bdae-18b78fec4e89",
+          "targetColor": "0xFF90E2ED"
+        },
+        {
+          "paletteColorId": "3da95865-3ca2-4c8d-aacf-c05d4189695d",
+          "targetColor": "0xFF66A6AE"
+        },
+        {
+          "paletteColorId": "b5a02fdf-0cf1-44fd-abcd-7b819608b8e5",
+          "targetColor": "0xFF0C866A"
+        },
+        {
+          "paletteColorId": "7d93424f-c6f6-43da-954e-97c107fe4e4e",
+          "targetColor": "0xFF13C39A"
+        },
+        {
+          "paletteColorId": "a858aa4f-5e4d-4237-b217-a58e94bcea9f",
+          "targetColor": "0xFFFFFB2F"
+        },
+        {
+          "paletteColorId": "99fb89b6-c779-405a-869d-883e1c705f38",
+          "targetColor": "0xFFC3C01E"
+        },
+        {
+          "paletteColorId": "96b4130b-040d-479e-872c-31b115b4dcaf",
+          "targetColor": "0xFF8B8811"
+        },
+        {
+          "paletteColorId": "e4121616-c5f6-4f7d-8b03-e41a38efbccd",
+          "targetColor": "0xFF514F09"
+        },
+        {
+          "paletteColorId": "91dda1fa-a989-472d-bf42-81d38ba12648",
+          "targetColor": "0xFF9B0F0F"
+        },
+        {
+          "paletteColorId": "06a55168-611a-40dd-b8cd-c013c19ab3ec",
+          "targetColor": "0xFFE91717"
+        },
+        {
+          "paletteColorId": "aa264633-f0f5-446b-a87e-a4f96db3d4df",
+          "targetColor": "0xFF7D0C0C"
+        },
+        {
+          "paletteColorId": "a3a5afae-cf08-4654-8234-f2613b31ac04",
+          "targetColor": "0xFF36000C"
+        },
+        {
+          "paletteColorId": "978a0f57-328e-44b3-9488-beb350c12c3f",
+          "targetColor": "0xFF771BA4"
+        },
+        {
+          "paletteColorId": "782cf55b-e09e-434d-ad0d-a63e82bcaef4",
+          "targetColor": "0xFFA82AE5"
+        },
+        {
+          "paletteColorId": "8841d7d5-b001-4b97-8e31-47037312bc41",
+          "targetColor": "0xFF4A1067"
+        }
+      ],
+      "name": "Base",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true
+        }
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

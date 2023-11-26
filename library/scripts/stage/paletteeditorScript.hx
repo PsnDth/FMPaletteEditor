@@ -163,12 +163,14 @@ function applyCharacterPalette(char: Character) {
     foe.setX(char.getX() + char.getEcbRightHipX());
     foe.setY(char.getY());
     if (!foe.inState(CState.STAND)) foe.toState(CState.STAND);
+    handleAssist(char, function(){
       var metadata = char.getGameObjectStatsMetadata();
       if (metadata == null) {
         metadata = {};
         char.updateGameObjectStats({metadata: metadata});
       }
       metadata._pe_all_aplied = true;
+    });
   });
 }
 
@@ -983,37 +985,3 @@ function onTeardown() {
     handler(true);
   }
 }
-
-// -------------------     TODO:    -------------------
-// ============== 1. STAGE FUNCTIONALITY ==============
-// - [X] Handle 1 character/assist at a time
-//    - [/] Spawn dummy , teleport char in front of it
-//    - [X] If orcane: downb  x2 > jump > fair > neutralb
-//    - [X] Use assist
-//          - [X] Add wallhit listener and then delete
-//    - [X] Prevent menu access until done (should display some message)
-// - [X] Menus
-//    - [X] Costume Select
-//          - [X] Should "seek" and display if can no longer right, then loop back to -1
-//          - [X] Exit by holding shield
-//          - [/] May want to show char/assist ID & costume numbers as well
-//          - [X] Figure out centering
-//          - [X] Special/Shield/Grab to go back to previous menu
-//    - [X] Playtest
-//          - [X] Force default palette if selected
-//          - [X] Disable assist charge
-//          - [X] Assist to exit, in regular mode 
-//          - [X] Any non-movement key to exit in assist mode (deletes assist after)
-// - [ ] Menu stuff
-// ======================== 3. WEB =========================
-// - [X] Import project
-//     - [?] Drag/drop
-//     - [X] Validate upload
-//     - [X] extract palette files/images
-// - [X] Display all palettes (put it number to replace for each)
-//     - [X] Apply Palette to image
-// - [ ] Export button
-//     - [ ] Palette => code
-//     - [ ] Create file from code
-//     - [ ] Download base zip from git and add to zip 
-

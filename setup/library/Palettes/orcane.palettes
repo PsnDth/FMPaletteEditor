@@ -1,0 +1,241 @@
+{
+  "colors": [
+    {
+      "$id": "0ea7431e-f540-4886-a541-2e3dc898edd7",
+      "color": "0xFF070707",
+      "name": "Outline",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "79a15f6a-744a-4902-948f-e4416e0a50ac",
+      "color": "0xFF687FD3",
+      "name": "Body Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f3c9bb49-ceed-4171-99e7-a3376278efe9",
+      "color": "0xFF424E9D",
+      "name": "Body Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "24673285-9bc7-4f70-866e-0ab23f1d8aae",
+      "color": "0xFF2D3173",
+      "name": "Body Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7c88decd-1f90-4742-8742-24f726d4db0d",
+      "color": "0xFF1C1D4A",
+      "name": "Body Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f7b02aaf-bfdf-4c9b-b6c2-139fc235edb5",
+      "color": "0xFF63D4F0",
+      "name": "One Toe Pixel",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "5a8c34a6-a069-4620-a8a1-f7ff054b96c9",
+      "color": "0xFFDFFCFC",
+      "name": "Paw Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f741223d-7eee-4828-add0-477493ee8d8f",
+      "color": "0xFFB6E7F3",
+      "name": "Under Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "04d304e8-2f52-4ed5-b076-5160f8c11b93",
+      "color": "0xFF7CADBF",
+      "name": "Under Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "21faa371-3e4c-4f50-ab89-b8235de4d956",
+      "color": "0xFF50768F",
+      "name": "Under Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "1d3426de-74f3-47a7-905b-fc5102585433",
+      "color": "0xFFF6F6F6",
+      "name": "Eye Highlight 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "f2726c7e-91d2-4e79-b219-fe924792080f",
+      "color": "0xFFA4A4A4",
+      "name": "Eye Highlight 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "0a994c5d-d509-42ac-acf8-3ba14a40e68f",
+      "color": "0xFF0C293B",
+      "name": "Eye Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "5eeeb11e-4d5f-44f9-bfa5-71251fcb7431",
+      "color": "0xFF3A6E87",
+      "name": "Eye Iris Shade 1",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "b79575b8-abcd-407d-a1d1-3e88316ff1a5",
+      "color": "0xFF1B4A61",
+      "name": "Eye Iris Shade 2",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ebb96704-1a3f-4865-88ca-17e34eb6a0dc",
+      "color": "0xFFEFEFEF",
+      "name": "Teeth",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "3879165e-dcb1-4e19-ab23-f4c211666d0a",
+      "color": "0xFFB1B1B1",
+      "name": "Teeth Shadow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "45f7a8a9-7059-43a7-a23d-31013ae6b081",
+      "color": "0xFF631818",
+      "name": "Mouth Inner",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "7b00efc9-f495-49a3-82c8-91f738056690",
+      "color": "0xFF8B3429",
+      "name": "Mouth Outer",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "a7a48fe7-384e-419d-a94d-90dceda55a22",
+  "id": "public::orcane.orcane",
+  "imageAsset": "df23e998-541a-4b9e-993d-089c1a9e01e5",
+  "maps": [
+    {
+      "$id": "7179178f-95e2-48b6-9757-6128064df7cc",
+      "colors": [
+        {
+          "paletteColorId": "0ea7431e-f540-4886-a541-2e3dc898edd7",
+          "targetColor": "0xFF070707"
+        },
+        {
+          "paletteColorId": "24673285-9bc7-4f70-866e-0ab23f1d8aae",
+          "targetColor": "0xFF2D3173"
+        },
+        {
+          "paletteColorId": "f3c9bb49-ceed-4171-99e7-a3376278efe9",
+          "targetColor": "0xFF424E9D"
+        },
+        {
+          "paletteColorId": "79a15f6a-744a-4902-948f-e4416e0a50ac",
+          "targetColor": "0xFF687FD3"
+        },
+        {
+          "paletteColorId": "7c88decd-1f90-4742-8742-24f726d4db0d",
+          "targetColor": "0xFF1C1D4A"
+        },
+        {
+          "paletteColorId": "04d304e8-2f52-4ed5-b076-5160f8c11b93",
+          "targetColor": "0xFF7CADBF"
+        },
+        {
+          "paletteColorId": "f741223d-7eee-4828-add0-477493ee8d8f",
+          "targetColor": "0xFFB6E7F3"
+        },
+        {
+          "paletteColorId": "21faa371-3e4c-4f50-ab89-b8235de4d956",
+          "targetColor": "0xFF50768F"
+        },
+        {
+          "paletteColorId": "5a8c34a6-a069-4620-a8a1-f7ff054b96c9",
+          "targetColor": "0xFFDFFCFC"
+        },
+        {
+          "paletteColorId": "0a994c5d-d509-42ac-acf8-3ba14a40e68f",
+          "targetColor": "0xFF0C293B"
+        },
+        {
+          "paletteColorId": "1d3426de-74f3-47a7-905b-fc5102585433",
+          "targetColor": "0xFFF6F6F6"
+        },
+        {
+          "paletteColorId": "f2726c7e-91d2-4e79-b219-fe924792080f",
+          "targetColor": "0xFFA4A4A4"
+        },
+        {
+          "paletteColorId": "b79575b8-abcd-407d-a1d1-3e88316ff1a5",
+          "targetColor": "0xFF1B4A61"
+        },
+        {
+          "paletteColorId": "5eeeb11e-4d5f-44f9-bfa5-71251fcb7431",
+          "targetColor": "0xFF3A6E87"
+        },
+        {
+          "paletteColorId": "3879165e-dcb1-4e19-ab23-f4c211666d0a",
+          "targetColor": "0xFFB1B1B1"
+        },
+        {
+          "paletteColorId": "ebb96704-1a3f-4865-88ca-17e34eb6a0dc",
+          "targetColor": "0xFFEFEFEF"
+        },
+        {
+          "paletteColorId": "45f7a8a9-7059-43a7-a23d-31013ae6b081",
+          "targetColor": "0xFF631818"
+        },
+        {
+          "paletteColorId": "7b00efc9-f495-49a3-82c8-91f738056690",
+          "targetColor": "0xFF8B3429"
+        },
+        {
+          "paletteColorId": "f7b02aaf-bfdf-4c9b-b6c2-139fc235edb5",
+          "targetColor": "0xFF63D4F0"
+        }
+      ],
+      "name": "Base",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true
+        }
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
