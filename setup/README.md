@@ -17,6 +17,7 @@ Some notes:
     c. Sketch animations have weird mapping (obv)
 4. Orcane 
     a. Everything is mapped
+    b. Bubbles (from downb/forward air) are* mapped but not present in hud image. They are separate for each costume so can be updated
 5. Fishbunjin
     a. Effects are not mapped (downb/neutralb)
     b. Dumbbell is* mapped but not present in hud image. There is only 1 costume for it so all costumes will use the last updated colour
