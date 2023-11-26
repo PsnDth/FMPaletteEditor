@@ -112,7 +112,7 @@ var PALETTES = [
     "public::octodad.octodadassist" => OCTODAD_PALETTES,
 ];
 
-// Actual Cutom palettes will get loaded into here
+// Actual Custom palettes will get loaded into here
 /*CUSTOM_PALETTE_INFO*/
 
 function initialize() {
