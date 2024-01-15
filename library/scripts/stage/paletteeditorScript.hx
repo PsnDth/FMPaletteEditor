@@ -153,6 +153,7 @@ function initialize(){
     return;
   }
   if (!PaletteResource.init(palette_gen.exports.getPalettes())) return;
+  palette_gen.destroy();
 }
 
 function applyCharacterPalette(char: Character) {
@@ -258,6 +259,7 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
   obj.setCostumeIndex(costume_idx);
   var asShader = null;
   var proj_watcher = null;
+  var structure_watchers = [];
   if (costume_idx == -1) {
     asShader = function (entity: GameObject) {
       var shader = entity.getCostumeShader();
@@ -272,6 +274,7 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
   } else if (palette != null) {
     asShader = function (entity: GameObject) {
       var shader = entity.getCostumeShader();
+
       if (shader == null || shader.paletteMap == null) return false;
       for (color in palette.keys()) {
         shader.paletteMap[color] = palette[color];
@@ -283,27 +286,37 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
   if (asShader != null) {
     asShader(obj);
     var handled_projs = [];
-    proj_watcher = obj.addTimer(1, -1, function(){
+    proj_watcher = StageTimer.addCallback(function(){
       for (p in match.getProjectiles()) {
-        var projectile: Projectile = p;
-        var owner = projectile.getRootOwner();
-        if (owner == obj.getRootOwner() || owner == null) {
-            if (!handled_projs.contains(projectile)) {
-              if (!asShader(projectile)) continue;
-              handled_projs.push(projectile);
-            }
-        } else {
-          Engine.log("Found projectile with unexpected owner ...", 0xB30202);
+        if (!handled_projs.contains(p)) {
+          if (!asShader(p)) continue;
+          handled_projs.push(p);
         }
       }
-    }, {persistent: true});
+    });
+    for (structure in match.getStructures()) {
+      var handler = function(e: StructureEvent){
+        var other = e.data.entity;
+        if (other.getType() == EntityType.CUSTOM_GAME_OBJECT && other != obj) {
+          if (!handled_projs.contains(other)) {
+            if (!asShader(other)) continue;
+            handled_projs.push(other);
+          }         
+        }
+      };
+      structure.addEventListener(StructureEvent.COLLIDE_ENTITY, handler);
+      structure_watchers.push([structure, handler]);
+    }
   }
 
   function stopHandler() {
     for (handler in destroy_handlers) {
       handler(true);
     }
-    if (proj_watcher != null) obj.removeTimer(proj_watcher);
+    for (watcher in structure_watchers) {
+      watcher[0].removeEventListener(StructureEvent.COLLIDE_ENTITY, watcher[1]);
+    }
+    if (proj_watcher != null) StageTimer.removeCallback(proj_watcher);
 
   }
   return stopHandler;
