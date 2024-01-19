@@ -372,7 +372,7 @@ static SCRIPT_TEMPLATE = `$palette_list
 var PALETTES = [
 $pmap_list  
 ];`;
-    static TEMPLATE_URL = "https://raw.githubusercontent.com/PsnDth/FMPaletteEditor/main/build/paletteeditor.fra"
+    static TEMPLATE_URL = "https://raw.githubusercontent.com/PsnDth/PaletteEditor/main/build/paletteeditor.fra"
     static TEMPLATE_STRING = `/*CUSTOM_PALETTE_INFO*/`;
     constructor (palettes) {
         this.id = null;

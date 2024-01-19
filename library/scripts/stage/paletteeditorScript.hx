@@ -55,7 +55,7 @@ var Util = {
     } while (obj.getCostumeIndex() >= guess-1);
     var max_costume = obj.getCostumeIndex();
     if (max_costume == 0) {
-      Engine.log("Something went wrong while trying to find max costume ...", 0xB30202);
+      Engine.log("ERROR: Something went wrong while trying to find max costume ...", 0xB30202);
       return -1;
     }
     return max_costume;
@@ -256,6 +256,8 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
     });
     destroy_handlers.push(destroy_listener);
   }
+  var orig_cotume = obj.getCostumeIndex();
+
   obj.setCostumeIndex(costume_idx);
   var asShader = null;
   var proj_watcher = null;
@@ -274,6 +276,7 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
   } else if (palette != null) {
     asShader = function (entity: GameObject) {
       var shader = entity.getCostumeShader();
+      // Engine.log("applying costume="  + costume_idx + " for obj=" + obj_id + " entity=" + EntityType.constToString(entity.getType()) + "(" +  entity.getUid() + ") obj_costume=" + obj.getCostumeIndex() + " shader=" + shader + " shader palette=" + shader.paletteMap);
 
       if (shader == null || shader.paletteMap == null) return false;
       for (color in palette.keys()) {
@@ -288,19 +291,30 @@ function ensureCostume(obj: GameObject, obj_id: String, costume_idx: Int) {
     var handled_projs = [];
     proj_watcher = StageTimer.addCallback(function(){
       for (p in match.getProjectiles()) {
-        if (!handled_projs.contains(p)) {
+        if (!handled_projs.contains(p.getUid())) {
           if (!asShader(p)) continue;
-          handled_projs.push(p);
+          handled_projs.push(p.getUid());
         }
       }
     });
+    // Check for any f1 projectiles and update costume first before applying
+    // If this happens for custom game objects then ... gg
+    for (p in match.getProjectiles()) {
+      if (p.getCostumeIndex() != orig_cotume) continue;
+      p.setCostumeIndex(costume_idx);
+      if (p.getCostumeIndex() != costume_idx) continue;
+      if (!handled_projs.contains(p.getUid())) {
+        if (!asShader(p)) continue;
+        handled_projs.push(p.getUid());
+      }
+    }
     for (structure in match.getStructures()) {
       var handler = function(e: StructureEvent){
         var other = e.data.entity;
         if (other.getType() == EntityType.CUSTOM_GAME_OBJECT && other != obj) {
-          if (!handled_projs.contains(other)) {
+        if (!handled_projs.contains(other.getUid())) {
             if (!asShader(other)) continue;
-            handled_projs.push(other);
+            handled_projs.push(other.getUid());
           }         
         }
       };
@@ -599,12 +613,14 @@ var PlaytestMode = {
   _costume_id: null,
 
   _handlers: [],
+  _last_assist: null,
   _costume_handler_clearer: null,
 
   init: function(?exit_cb) {
     PlaytestMode._exit_cb = exit_cb;
   },
   _applyCostume: function(obj, obj_id, costume) {
+    if (PlaytestMode._costume_handler_clearer != null) PlaytestMode._costume_handler_clearer();
     PlaytestMode._costume_handler_clearer = ensureCostume(obj, obj_id, costume);
   },
   enter: function(selector, tle, costume_id) {
@@ -630,8 +646,9 @@ var PlaytestMode = {
       if (was_assist) {
         if (tle.assist) {
           var assist_id = Util.decodeStructId(curr_char.getPlayerConfig().assist);
-          var obj = match.createCustomGameObject(assist_id, curr_char);
-          PlaytestMode._applyCostume(obj, assist_id, PlaytestMode._costume_id);
+          PlaytestMode._cleanup_last();
+          PlaytestMode._last_assist = match.createCustomGameObject(assist_id, curr_char);
+          PlaytestMode._applyCostume(PlaytestMode._last_assist, assist_id, PlaytestMode._costume_id);
            return;
         }
         PlaytestMode._exit();
@@ -894,7 +911,9 @@ var PlaytestMode = {
     }));
   },
   _exit: function() {
+    PlaytestMode._cleanup_last();
     if (PlaytestMode._costume_handler_clearer != null) PlaytestMode._costume_handler_clearer();
+    PlaytestMode._costume_handler_clearer = null;
     for (handler in PlaytestMode._handlers) {
       StageTimer.removeCallback(handler);
     }
@@ -910,6 +929,15 @@ var PlaytestMode = {
       char.toState(CState.STAND);
     }
     if (PlaytestMode._exit_cb != null) PlaytestMode._exit_cb(selector, tle, costume_id);
+  },
+  _cleanup_last: function() {
+    if (PlaytestMode._costume_handler_clearer != null) PlaytestMode._costume_handler_clearer();
+    PlaytestMode._costume_handler_clearer = null;
+    if (PlaytestMode._last_assist != null) PlaytestMode._last_assist.destroy();
+    PlaytestMode._last_assist = null;
+    for (p in match.getProjectiles()) {
+      p.destroy();
+    }
   }
 };
 
