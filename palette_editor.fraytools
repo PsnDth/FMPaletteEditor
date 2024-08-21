@@ -22,10 +22,6 @@
     {
       "id": "build0",
       "path": "build"
-    },
-    {
-      "id": "build1",
-      "path": "../../../../../Program Files (x86)/Steam/steamapps/common/Fraymakers/custom/peditor"
     }
   ],
   "snapToPixel": true,
