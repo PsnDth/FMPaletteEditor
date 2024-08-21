@@ -21,3 +21,6 @@ Some notes:
 5. Fishbunjin
     a. Effects are not mapped (downb/neutralb)
     b. Dumbbell is* mapped but not present in hud image. There is only 1 costume for it so all costumes will use the last updated colour
+6. Watcher
+    a. Wrath is implemented as a dynamic palette change so all wrath colour trails/eye changes will not apply in-game while in wrath. Divinity changes only work fully if done from calm, not wrath. This does not apply to neutralb though (and thus not the assist either)
+    b. Effects for upb/sideb/usmash/taunt are spawned separately so cannot be mapped
